@@ -12,7 +12,6 @@ interface BannerFullProps {
 }
 
 export const BannerFull : React.FC<BannerFullProps> = ({bannerData, placeholder, sliderConfig}) => {
-
   return (
     <section className="banner-full">
       <Slider {...sliderConfig}>
