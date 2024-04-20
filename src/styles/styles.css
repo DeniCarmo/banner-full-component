@@ -1,0 +1,31 @@
+.banner-full {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.banner-full .banner-full__wrapper {
+  position: relative;
+}
+
+.banner-full .banner-full__title--container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+
+.banner-full .banner-full__title {
+  color: #ffffff;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
