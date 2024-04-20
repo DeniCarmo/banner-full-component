@@ -1,0 +1,21 @@
+{
+  "name": "@denicarmo/banner-full",
+  "version": "0.0.2",
+  "description": "Um componente JavaScript/TypeScript leve para criar carrosséis de banners com facilidade, oferecendo personalização flexível.",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Deni Carmo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "typescript": "^5.4.5"
+  }
+}
