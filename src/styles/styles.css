@@ -1,13 +1,22 @@
 .banner-full {
   width: 100%;
   max-width: 1920px;
+  display: block;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .banner-full .banner-full__wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+}
+
+.banner-full .banner-full__wrapper img {
+  width: 100%;
+  height: auto;
 }
 
 .banner-full .banner-full__title--container {

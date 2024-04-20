@@ -2,11 +2,11 @@ import React from 'react'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import { bannerDataProp } from './types/types';
+import { bannerItemProp } from './types/types';
 import './styles/styles.css';
 
 interface BannerFullProps {
-  bannerData: bannerDataProp;
+  bannerData: bannerItemProp[];
   placeholder: string;
   sliderConfig: Object;
 }
@@ -15,7 +15,7 @@ export const BannerFull : React.FC<BannerFullProps> = ({bannerData, placeholder,
   return (
     <section className="banner-full">
       <Slider {...sliderConfig}>
-        {bannerData.items.map((banner, i) => {
+        {bannerData.map((banner, i) => {
           return banner.link ? (
             <>
               <a href={banner.link || '#'} className="banner-full__wrapper" key={i}>
